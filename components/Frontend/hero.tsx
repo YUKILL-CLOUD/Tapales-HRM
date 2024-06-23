@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from 'next/image';
+
 
 export default function HeroSection() {
   return (
@@ -7,12 +9,12 @@ export default function HeroSection() {
         <div className="flex-none space-y-5 max-w-xl">
         
           <h1 className="text-4xl text-mainColor font-extrabold sm:text-5xl">
-          Streamline Your Pet's Care
+          Streamline Your Pet&apos;s Care
           </h1>
           <p>
           Effortlessly 
           <span className=' hover:text-mainHover mr-2 ml-2'>manage</span>
-          your pet's appointments, health records, and more with our intuitive clinic management system. Stay organized, stay informed, and give your pet the care they deserve.
+          your Pet&apos;s appointments, health records, and more with our intuitive clinic management system. Stay organized, stay informed, and give your pet the care they deserve.
           </p>
           <div className="flex items-center gap-x-3 sm:text-sm">
             <a
@@ -36,14 +38,16 @@ export default function HeroSection() {
             
           </div>
         </div>
-        <div className="flex-1 hidden md:block">
-          {/* Replace with your image */}
-          <img
-            src="pngegg.png"
-            className="max-w-xl"
-            alt="Illustration"
-          />
-        </div>
+          <div className="flex-1 hidden md:block">
+              {/* Replace with your image */}
+              <Image
+                src="/pngegg.png"
+                alt="Illustration"
+                className="max-w-xl"
+                width={500}
+                height={500}
+              />
+          </div>
       </div>
     </section>
   );
