@@ -18,40 +18,43 @@ export default function Navbar() {
     const body = document.body;
     const customBodyStyle = ['overflow-hidden', 'lg:overflow-visible'];
     const customStyle = ['sticky-nav', 'fixed', 'border-b'];
-
+  
     if (state) {
       body.classList.add(...customBodyStyle);
     } else {
       body.classList.remove(...customBodyStyle);
     }
-
+  
     const handleScroll = () => {
-      if (window.scrollY > 80) {
-        navRef.current?.classList.add(...customStyle);
-      } else {
-        navRef.current?.classList.remove(...customStyle);
-      }
+        const nav = navRef.current as unknown as HTMLElement;
+        if (window.scrollY > 80) {
+            nav.classList.add(...customStyle);
+        } else {
+            nav.classList.remove(...customStyle);
+        }
     };
-
+  
     window.addEventListener('scroll', handleScroll);
-
+  
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, [state]);
-
+  
   useEffect(() => {
     const customStyle = ['sticky-nav', 'fixed', 'border-b'];
     const handleScroll = () => {
-      if (window.scrollY > 80) {
-        navRef.current?.classList.add(...customStyle);
-      } else {
-        navRef.current?.classList.remove(...customStyle);
-      }
+        const nav = navRef.current as unknown as HTMLElement;
+        if (window.scrollY > 80) {
+            nav.classList.add(...customStyle);
+        } else {
+            nav.classList.remove(...customStyle);
+        }
     };
-
+    
+  
     window.addEventListener('scroll', handleScroll);
-
+  
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -59,7 +62,7 @@ export default function Navbar() {
 
   return (
     <nav ref={navRef} className="bg-white w-full top-0 z-20">
-      <div className="items-center px-2 max-w-screen-xl mx-auto md:px-1 lg:flex"> {/* Reduced Padding */}
+      <div className="items-center px-2 max-w-screen-xl mx-auto md:px-4 lg:flex"> {/* Reduced Padding */}
       <div className="flex items-center justify-between py-2 lg:py-1 lg:block"> {/* Reduced Padding */}
           <a href="javascript:void(0)">
             <img
