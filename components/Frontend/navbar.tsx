@@ -7,9 +7,9 @@ export default function Navbar() {
   const navRef = useRef(null);
 
   const navigation = [
-    { title: 'Home', path: 'javascript:void(0)' },
-    { title: 'About', path: 'javascript:void(0)' },
-    { title: 'Contact', path: 'javascript:void(0)' },
+    { title: 'Home', path: '/' },
+    { title: 'Services', path: '/services' },
+    { title: 'Contact', path: '/contact' },
     { title: 'Team', path: 'javascript:void(0)' },
     { title: 'Blog', path: 'javascript:void(0)' },
   ];

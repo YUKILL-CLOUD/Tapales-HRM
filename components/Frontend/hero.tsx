@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function HeroSection() {
   return (
     <section>
-      <div className="max-w-screen-xl mx-auto px-4 py-20 gap-12 text-gray-600 overflow-hidden md:px-8 md:flex md:min-h-screen md:items-center md:justify-center">
+      <div className="h-full max-w-screen-xl mx-auto px-4 py-8 gap-12 text-gray-600 overflow-hidden md:px-8 md:flex md:min-h-screen md:items-center md:justify-center">
         <div className="flex-none space-y-5 max-w-xl">
         
           <h1 className="text-4xl text-mainColor font-extrabold sm:text-5xl">
@@ -44,8 +44,8 @@ export default function HeroSection() {
                 src="/pngegg.png"
                 alt="Illustration"
                 className="max-w-xl"
-                width={500}
-                height={500}
+                width={900}
+                height={900}
               />
           </div>
       </div>
