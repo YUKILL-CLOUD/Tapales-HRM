@@ -104,7 +104,7 @@ export default function Footer() {
                                     className="w-full p-2.5 outline-none"
                                 />
                                 <button
-                                    className="p-2.5 rounded-md text-white bg-mainColor hover:bg-mainHover outline-none shadow-md focus:shadow-none sm:px-5"
+                                    className="p-2.5 rounded-md text-white bg-mainColor-default hover:bg-mainHover outline-none shadow-md focus:shadow-none sm:px-5"
                                 >
                                     Subscribe
                                 </button>
