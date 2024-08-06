@@ -19,7 +19,10 @@ const config = {
     },
     extend: {
       colors: {
-        mainColor: 'rgba(94, 84, 142)',
+        mainColor: {
+          default: 'rgba(94, 84, 142)',
+          light:  'rgba(184, 174, 232, 1)',
+        },
         mainHover: 'rgba(159, 134, 192)',
         textrHover: 'rgb(190, 149, 196)', // Slightly lighter for hover effect
         border: "hsl(var(--border))",
