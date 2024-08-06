@@ -80,7 +80,7 @@ const services: Service[] = [
                 Services
                 </span>
                 <h1 className="text-3xl font-semibold text-blue-950 dark:text-gray-200 md:text-4xl xl:text-5xl leading-tight">
-                Let&apos;s us help you grow your business
+                Lets us help you grow your business
                 </h1>
             </div>
             <p className="text-gray-700 dark:text-gray-300">
