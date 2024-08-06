@@ -20,8 +20,8 @@ const config = {
     extend: {
       colors: {
         mainColor: {
-          default: 'rgba(94, 84, 142)',
-          light:  'rgba(184, 174, 232, 1)',
+          default: 'rgba(94, 84, 142)', 
+          light:  'rgba(196, 190, 225, 0.8)',
         },
         mainHover: 'rgba(159, 134, 192)',
         textrHover: 'rgb(190, 149, 196)', // Slightly lighter for hover effect
