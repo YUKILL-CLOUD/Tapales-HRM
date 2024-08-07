@@ -8,7 +8,6 @@ export default function layout({children}:{children:ReactNode}) {
     <div>{children}
         <HeroSection/>
         <Features/>
-        
     </div>
     )
 }

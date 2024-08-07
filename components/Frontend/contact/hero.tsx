@@ -14,7 +14,6 @@ return (
                         <div className="h-full md:h-1/2 lg:h-full w-full bg-gradient-to-tr opacity-40 dark:blur-2xl dark:from-[#0c1cac] dark:opacity-20">
                         </div>
                     </div>
-                    
                     <div className="mx-auto space-y-2 text-center lg:text-center flex flex-col max-w-3xl justify-center lg:justify-start lg:py-8 flex-1 lg:w-1/2 lg:max-w-none">
                         <h1 className="text-mainHover dark:text-mainColor text-3xl/snug sm:text-5xl/tight lg:text-4xl/tight xl:text-[3.50rem]/tight font-bold">
                             Connect with our Freindly Clinic
