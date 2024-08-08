@@ -9,7 +9,7 @@ export default function Navbar() {
   const navigation = [
     { title: 'Home', path: '/' },
     { title: 'Services', path: '/services' },
-    { title: 'Contact', path: '/contact' },
+    { title: 'Contact', path: '/contacts' },
     { title: 'Team', path: 'javascript:void(0)' },
     { title: 'Blog', path: 'javascript:void(0)' },
   ];
@@ -61,10 +61,10 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav ref={navRef} className="bg-white w-full top-0 z-20">
+    <nav ref={navRef} className="bg-white w-full top-0 z-50 bg-opacity-80">
   <div className="items-center px-2 max-w-screen-xl mx-auto md:px-4 lg:flex"> {/* Reduced Padding */}
     <div className="flex items-center justify-between py-2 lg:py-3 lg:block"> {/* Reduced Padding */}
-    <a href="javascript:void(0)" className="flex items-center text-mainColor-default hover:text-mainHover" >
+    <a href="/" className="flex items-center text-mainColor-default hover:text-mainHover" >
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 122.88 95.78"
@@ -72,6 +72,7 @@ export default function Navbar() {
     height="40"
     className="fill-current" // Removed the mr-1 class
   >
+
     <path
       d="M85.64,9.03c18.13-19.58,21.19-1.79,34.54,1.95c1.61,0.45,2.81,0.56,2.7,1.32c-1.17,7.67-3.67,9.12-6.46,9.19 c-3.09,0.09-5.6,0.03-7.45,0.91c-2.36,1.12-4.07,2.57-5.32,4.27l-18.96-9.67C85.29,14.76,85.62,12.12,85.64,9.03L85.64,9.03 L85.64,9.03z M101.67,30.37c-4.04,10.76,1.35,26.76-16.71,32.65c-1.09,9.16-1.04,18.33,0.24,27.49l2.19-0.23 c3.95-0.42,3.92,3.17,2.05,5.48H77.76c-0.85-10.98-2.97-23-2.09-33.48c-6.15,1.65-9.86,1.21-16.54-1.34 c-3.24-1.23-16.62-9.23-20.25-5.98c-2.04,1.84,3.41,9.18-10.05,22.21l0.24,12.89l2.28,0c3.45,0,3.26,3.45,2.01,5.7h-6.65 c-4.42,0-3.49,0.47-3.55-4.18l-0.11-10.03l-0.71-6.22c0.01-3.7,2.67-7.64,0.13-16.46c-1.68-5.83-1.54-10.48-5.93-11.12 c-4.07,8.21-7.97,15.73-11.39,24.34c-0.23,0.58-0.55,1.13-0.83,1.7c-3.9,8.98-5.53,2.23-3.35-3.1l1.46-3.56 c1.87-7.53,7.14-21.65,12.11-26.89c18.74-19.77,56.72-1.07,67.91-18.18L101.67,30.37L101.67,30.37L101.67,30.37z"
       fill="mainColor"

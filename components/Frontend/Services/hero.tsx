@@ -27,10 +27,7 @@ return (
                 
                         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-[34rem] mx-auto lg:mx-0 w-full">
                             <div className="relative text-center bg-white dark:bg-gray-950/60 border border-blue-100 dark:border-gray-950 p-5 rounded-3xl before:absolute before:inset-1 before:bg-blue-50 dark:before:bg-gray-950 before:rounded-[1.25rem]">
-                                <span className="font-bold text-2xl text-gray-900 dark:text-gray-100 relative">
-                                    450+
-                                </span>
-                                <h2 className="text-sm text-gray-700 dark:text-gray-300 relative">Diagnostic Weekly</h2>
+                                
                             </div>
                             <div className="relative text-center bg-white dark:bg-gray-950/60 border border-blue-100 dark:border-gray-950 p-5 rounded-3xl before:absolute before:inset-1 before:bg-blue-50 dark:before:bg-gray-950 before:rounded-[1.25rem]">
                                 <span className="font-bold text-2xl text-gray-900 dark:text-gray-100 relative">

@@ -4,11 +4,11 @@ import { useState } from 'react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { Field, Label, Switch } from '@headlessui/react'
 
-export default function Message() {
+export default function Contactsales() {
     const [agreed, setAgreed] = useState(false)
 
     return (
-        <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
+        <div className="isolate bg-white px-6 py-16 sm:py-24 lg:px-8">
         <div
             aria-hidden="true"
             className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
@@ -27,7 +27,7 @@ export default function Message() {
             Aute magna irure deserunt veniam aliqua magna enim voluptate.
             </p>
         </div>
-        <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20">
+        <form action="#" method="POST" className="mx-auto mt-12 max-w-xl sm:mt-16">
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
             <div>
                 <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900">
