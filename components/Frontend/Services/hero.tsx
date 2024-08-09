@@ -44,7 +44,7 @@ return (
                         </div>
                     </div>
                         <div className="hidden md:flex flex-1 lg:w-1/2 relative max-w-3xl mx-auto lg:max-w-none">
-                            <div className="lg:absolute lg:right-0 md:w-5/6 md:h-auto md:w-auto  lg:w-full lg:h-full bg-blue-100 overflow-hidden rounded-[24px]">
+                            <div className="lg:absolute lg:right-0 md:w-5/6 md:h-auto md:w-auto lg:w-full lg:h-full bg-blue-100 overflow-hidden rounded-[24px]">
                                 <Image src="/services.jpg" alt="cat face" width={1850} height={1150} className="w-full h-full object-cover " />
                             </div>
                         </div>
